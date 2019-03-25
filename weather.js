@@ -31,13 +31,14 @@
 
 function show(data){
 
-    return "<h2>Current Weather in " + data.name + ", " + data.sys.country + "</h2>" + 
-    "<img src='http://openweathermap.org/img/w/"+data.weather[0].icon+".png'> " + 
-    "<h3>Weather: " + data.weather[0].main + "</h3>" +
-    "<h3>Description: " + data.weather[0].description + "</h3>" +
-    "<h3>Temperature: " + data.main.temp + "&deg;C</h3>" +
-    "<h3>Pressure: " + data.main.pressure + " hPa</h3>" +
-    "<h3>Humidity: " + data.main.humidity + "%</h3>" +
-    "<h3>Maximum temperature: " + data.main.temp_max + "&deg;C</h3>" +
-    "<h3>Minimum temperature: " + data.main.temp_min + "&deg;C</h3>"
+    return        "<img src='http://openweathermap.org/img/w/"+data.weather[0].icon+".png'> " + 
+    "<h2>" + data.name + ", " + data.sys.country + "</h2>" + 
+    "<h1>" + data.main.temp + "&deg;C</h1>" +
+  
+
+    "<h5>Weather</h5>" + "<h3>" + data.weather[0].main + "</h3>" +
+    "<h5>Pressure</h5>" + "<h3>" + data.main.pressure + " hPa </h3>" +
+    "<h5>Humidity</h5>" + "<h3>" + data.main.humidity + "%</h3>" +
+    "<h5>Maximum</h5>" + "<h3>" + data.main.temp_max + "&deg;C</h3>" +
+    "<h5>Minimum</h5>" + "<h3>" + data.main.temp_min + "&deg;C</h3>"
 }

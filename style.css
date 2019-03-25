@@ -1,8 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 h3 {
     margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #B8C2CC;
+
+    margin-bottom: 20px;
+
 }
 
 h2 {
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #22292F;
 
+
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color: #38C172;
+    margin-bottom: 20px;
+}
+
+
+#city {
+    border-bottom: 1px solid white;
+}
+
+h5 {
+    margin-top: 10px;
+    color: #22292F;
+    font-family: 'Montserrat', sans-serif;
 }
