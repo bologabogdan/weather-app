@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="weather.js" async defer></script>
+    </head>
+    <body class="p-8 lg:p-0 bg-grey-lightest lg:max-w-2xl mx-auto">
+
+        <div>
+            <h1 class="text-orange py-8 my-8">Weather App</h1>
+        </div>
+
+        <div>
+            <input id="city" type="text" class="bg-grey-light py-4 pl-4 text-xl">
+            <button id="submit" class="bg-orange text-white p-4 text-xl ">Search</button>
+        </div>
+
+        <div class="py-8">
+            <div id="show" class="text-left">
+            </div>
+        </div>
+
+
+    </body>
+</html>
