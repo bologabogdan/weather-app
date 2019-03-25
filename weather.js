@@ -1,6 +1,3 @@
-
-
-
     $('#submit').click(function(){
         
         var city = $("#city").val();
@@ -34,8 +31,6 @@ function show(data){
     return        "<img src='http://openweathermap.org/img/w/"+data.weather[0].icon+".png'> " + 
     "<h2>" + data.name + ", " + data.sys.country + "</h2>" + 
     "<h1>" + data.main.temp + "&deg;C</h1>" +
-  
-
     "<h5>Weather</h5>" + "<h3>" + data.weather[0].main + "</h3>" +
     "<h5>Pressure</h5>" + "<h3>" + data.main.pressure + " hPa </h3>" +
     "<h5>Humidity</h5>" + "<h3>" + data.main.humidity + "%</h3>" +
